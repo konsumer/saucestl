@@ -1,7 +1,11 @@
 import React from 'react'
 
+import Page from '../src/components/Page'
+
 const PageIndex = () => (
-  <div>HOME</div>
+  <div className='page'>
+    HOME
+  </div>
 )
 
-export default PageIndex
+export default () => (<Page><PageIndex /></Page>)

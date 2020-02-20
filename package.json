@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "deploy": "serverless",
-    "start": "next"
+    "start": "node ./src/dev.js"
   },
   "repository": {
     "type": "git",
@@ -19,14 +19,20 @@
   },
   "homepage": "https://github.com/konsumer/saucestl#readme",
   "devDependencies": {
+    "express": "^4.17.1",
+    "local-dynamo": "^0.5.0",
     "serverless": "^1.64.0",
-    "serverless-next.js": "^1.9.1"
+    "serverless-next.js": "^1.9.1",
+    "yaml": "^1.7.2"
   },
   "dependencies": {
+    "@serverless/aws-dynamodb": "^4.0.0",
     "apollo-server-micro": "^2.10.1",
+    "aws-sdk": "^2.622.0",
     "micro-cookie": "^1.2.0",
     "next": "^9.2.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "urql": "^1.9.0"
   }
 }

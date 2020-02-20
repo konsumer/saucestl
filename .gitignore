@@ -1,7 +1,7 @@
 node_modules
 *.log
 .DS_Store
-.env
 .next
+.env
 .serverless
 .serverless_nextjs

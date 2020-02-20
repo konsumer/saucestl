@@ -1,2 +1,14 @@
 saucestl:
   component: serverless-next.js
+
+saucestl-data:
+  component: '@serverless/aws-dynamodb'
+  inputs:
+    name: saucestl-data
+    region: us-west-2
+    attributeDefinitions:
+      - AttributeName: id
+        AttributeType: S
+    keySchema:
+      - AttributeName: id
+        KeyType: HASH
