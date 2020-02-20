@@ -4,7 +4,7 @@
   "description": "An open-source STL sharing platform",
   "private": true,
   "scripts": {
-    "deploy": "serverless",
+    "deploy": "serverless  --debug",
     "start": "node ./src/dev.js"
   },
   "repository": {

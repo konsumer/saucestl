@@ -5,7 +5,7 @@ saucestl-data:
   component: '@serverless/aws-dynamodb'
   inputs:
     name: saucestl-data
-    region: us-west-2
+    accelerated: true
     attributeDefinitions:
       - AttributeName: id
         AttributeType: S
