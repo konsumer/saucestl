@@ -1,0 +1,23 @@
+{
+  "name": "saucestl",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/saucestl.git"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/saucestl/issues"
+  },
+  "homepage": "https://github.com/konsumer/saucestl#readme",
+  "devDependencies": {
+    "@architect/architect": "^6.2.3"
+  }
+}
