@@ -4,7 +4,7 @@ An open-source STL sharing platform.
 
 This is meant to be a bit like thingiverse, but faster.
 
-It's currently running [here](https://d1nefl4qh4341v.cloudfront.net).
+It's currently running [here](https://dhv3nilyqio26.cloudfront.net).
 
 ## development
 
