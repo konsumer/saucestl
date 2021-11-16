@@ -28,7 +28,7 @@
   "dependencies": {
     "@serverless/aws-dynamodb": "^4.0.0",
     "apollo-server-micro": "^2.10.1",
-    "aws-sdk": "^2.622.0",
+    "aws-sdk": "^2.814.0",
     "micro-cookie": "^1.2.0",
     "next": "^9.2.2",
     "react": "^16.12.0",
